@@ -101,3 +101,13 @@ h1 {
     width: 60px;
     border-radius: 2px;
 }
+
+.parrafoFinal {
+    color: #66FF00;
+}
+
+#textReturn {
+    background-color: #003300;
+    color: white;
+    width: 25%;
+}
