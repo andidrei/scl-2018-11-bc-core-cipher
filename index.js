@@ -9,6 +9,9 @@ function codificar() {
   return resultadoFinal;
 }
 
+codificar();
+
+
 function decodificar() {
   let textD = document.getElementById("texto").value;
   let offsetD = document.getElementById("desplazar").value;
@@ -18,3 +21,5 @@ function decodificar() {
   document.getElementById("textReturn").innerHTML = resultadoFinalD;
   return resultadoFinalD;
 }
+
+decodificar();
