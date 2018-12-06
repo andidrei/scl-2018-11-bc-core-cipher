@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hack Cipher</title>
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+      <h1>Hack Cipher</h1>
+        
+        <div class="popup" onclick="myFunction()"> >> Instrucciones
+          <span class="popuptext" id="myPopup">Ingresa una palabra o texto dentro del recuadro.<br> Elige una clave numérica para desplazar el alfabeto y codificar tu mensaje.</span>
+        </div>
+        <br>
+
+        <br>  
+        <form>
+           <textarea id="texto" class="textarea" placeholder="Ingresa tu texto aquí..."></textarea>
+           <br>
+           <input type="text" id="desplazar" class="input" placeholder="Clave"/>
+           <br>
+           <br>
+           <div>
+             <input type="button" class="botones" value="Codificar" onclick="codificar()"/>
+             <input type="button" class="botones" value="Decodificar" onclick="decodificar()"/>
+           </div> 
+           <br>
+           <input type="reset" class="botonReset" value="Borrar">
+           <br>
+           <p>Tu mensaje aparecerá aquí:</p>
+           <p id="textReturn"></p>
+        </form>   
+       <br>
+
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+ <script src="index.js"></script>  
+ <script src="cipher.js"></script> 
+ <script src="popup.js"></script>
+</body>
 </html>
