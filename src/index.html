@@ -10,10 +10,13 @@
 </head>
 <body>
     <div class="principal">
-      <h1>Hack Cipher</h1>
+      <div>
+        <img src="imagenes/Logo-hack-cipher.png" alt="Logo Hack Cipher">
+      </div>
+      <!--<h1>Hack Cipher</h1>-->
         
-        <div class="popup" onclick="myFunction()"> Instrucciones
-          <span class="popuptext" id="myPopup">Ingresa una palabra o texto dentro del recuadro.<br> Elige una clave numérica para desplazar el alfabeto y codificar tu mensaje.</span>
+        <div class="popup" onclick="popUp()">Instrucciones
+          <span class="popuptext" id="miPopup">Ingresa una palabra o texto dentro del recuadro.<br> Elige una clave numérica para desplazar el alfabeto y codificar tu mensaje.</span>
         </div>
         <br>
 
@@ -31,7 +34,7 @@
            <br>
            <input type="reset" class="botonReset" value="Borrar">
            <br>
-           <p>Tu mensaje aparecerá aquí:</p>
+           <p class="parrafoFinal">Tu mensaje aparecerá aquí:</p>
            <p id="textReturn"></p>
         </form>   
        <br>
