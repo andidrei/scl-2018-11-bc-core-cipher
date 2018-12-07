@@ -22,7 +22,7 @@ Frente a este escenario, Hack Cipher brinda una opción segura para compartir me
 # Planificación
 El desarrollo de Hack Cipher tuvo una duración total de dos semanas, y las tareas fueron distribuidas de la siguiente manera:
 
-![Calendario planificacion](https://github.com/andidrei/scl-2018-11-bc-core-cipher/master/src/imagenes/planificacion.jpg)
+![Calendario planificacion](https://github.com/andidrei/scl-2018-11-bc-core-cipher/src/imagenes/planificacion.jpg)
 
 
 # Interfaz de usuario
