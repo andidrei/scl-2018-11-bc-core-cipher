@@ -7,10 +7,7 @@ body {
     margin: 0 auto;
 }
 
-h1 {
-    color: palegreen;
-}
-
+/*Instrucciones*/
 .popup {
     position: relative;
     color: #00FF33;
@@ -28,7 +25,7 @@ h1 {
     padding: 8px 8px;
     position: absolute;
     z-index: 1;
-    bottom: -125px;
+    bottom: -135px;
     left: 50%;
     margin-left: -80px;
 }
@@ -37,7 +34,7 @@ h1 {
     content: "";
     position: absolute;
     transform: rotate(-180deg);
-    top: -9%;
+    top: -7%;
     left: 40%;
     margin-left: -5px;
     border-width: 5px;
